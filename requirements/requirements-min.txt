@@ -2,7 +2,7 @@
 # dependencies that is supported.
 
 # setup
-setuptools==42.0.0
+setuptools==62.6.0
 
 # install
 einops==0.3.0
