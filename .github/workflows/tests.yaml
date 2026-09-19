@@ -44,7 +44,7 @@ jobs:
           OMP_NUM_THREADS=1 pytest -n "$PYTEST_WORKERS" --dist loadgroup --cov=torchgeo --cov-report=xml
           python -m torchgeo --help
       - name: Report coverage
-        uses: codecov/codecov-action@v7.1.0
+        uses: codecov/codecov-action@v7.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
   minimum:
@@ -71,7 +71,7 @@ jobs:
           OMP_NUM_THREADS=1 pytest -n auto --dist loadgroup --cov=torchgeo --cov-report=xml
           python -m torchgeo --help
       - name: Report coverage
-        uses: codecov/codecov-action@v7.1.0
+        uses: codecov/codecov-action@v7.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
   optional:
@@ -99,7 +99,7 @@ jobs:
           OMP_NUM_THREADS=1 pytest -n auto --dist loadgroup --cov=torchgeo --cov-report=xml
           python -m torchgeo --help
       - name: Report coverage
-        uses: codecov/codecov-action@v7.1.0
+        uses: codecov/codecov-action@v7.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 concurrency:
