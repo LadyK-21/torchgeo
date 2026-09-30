@@ -4145,16 +4145,16 @@ wheels = [
 
 [[package]]
 name = "types-rasterio"
-version = "1.5.1.20260819"
+version = "1.5.1.20260907"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "affine" },
     { name = "click" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dd/89/18289f953b8aad95d8fa582e547c1b9975dd08c0b164008e0f9d43687a3a/types_rasterio-1.5.1.20260819.tar.gz", hash = "sha256:6cd7efa6dc190bf5b1fe8966413b427bdea308587a93c03cce48a296e805b102", size = 27125, upload-time = "2026-08-19T02:47:22.182Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/43/fe9e5c3107e43e9833b685eb3d25a0db0c1ed95d326454bce2b73932caa7/types_rasterio-1.5.1.20260907.tar.gz", hash = "sha256:fd85801b2841516131fec1879775686907109ed7803dee0f624e5034a42b5ae1", size = 27586, upload-time = "2026-09-07T06:43:37.781Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d8/9e/43a905a80523c2987fc37869bdd63b3bf5760208300732a4c88ac09e2850/types_rasterio-1.5.1.20260819-py3-none-any.whl", hash = "sha256:a554daf4ac86e3abe4782f9bd82f7f2b9aa01a250a9989d30188c1d752b9fcd0", size = 38658, upload-time = "2026-08-19T02:47:21.217Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/0d/9484f986c48d53f03ccca9269479fe0624a07fcef2a79ead1908e71ab384/types_rasterio-1.5.1.20260907-py3-none-any.whl", hash = "sha256:e187106da8f497c7e595ca5cec4f1167cdce8dac7091b594f94c4ace630ba6f0", size = 38940, upload-time = "2026-09-07T06:43:36.82Z" },
 ]
 
 [[package]]
